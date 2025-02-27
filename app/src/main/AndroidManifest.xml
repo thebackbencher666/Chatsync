@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Chatsync"
         tools:targetApi="31">
         <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.Chatsync" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Chatsync" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Chatsync" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
